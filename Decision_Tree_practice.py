@@ -30,7 +30,7 @@ classifier = DecisionTreeClassifier(criterion = 'entropy')
 
 #If desired we can supply extra parameters to decision trees fxn, but 
 #it may or may not give better accuracy.                                    
-classifier = DecisionTreeClassifier(criterion = 'entropy',max_depth = 3, min_samples_leaf=5)
+classifier = DecisionTreeClassifier(criterion = 'entropy',max_depth = 4, min_samples_leaf=6)
 
 classifier.fit(X_train, y_train)
 
