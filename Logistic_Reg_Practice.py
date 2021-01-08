@@ -13,7 +13,7 @@ import pandas as pd
 import seaborn as sns
 
 #Import data 
-titanic_data = pd.read_csv("F:/pyWork/pyData/titanic.csv")
+titanic_data = pd.read_csv("titanic.csv")
 titanic_data.head(5)
 titanic_data.tail(5)
 

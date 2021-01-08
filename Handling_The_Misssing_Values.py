@@ -62,11 +62,12 @@ df1.dropna(axis=0)
 df1.dropna(axis=1)
 
 #------------------Creating Data Frame Again-----------------------------------
+
+
 df1 = {'Name':['George','Andrea','micheal','maggie','Ravi','Xien','Jalpa',np.nan],
        'State':['Arizona','Georgia','Newyork','Indiana','Florida','California',np.nan,np.nan],
        'Gender':["M","F","M","F","M","M",np.nan,np.nan],
        'Score':[63,48,56,75,np.nan,77,np.nan,np.nan]}
-
 df1 = pd.DataFrame(df1,columns=['Name','State','Gender','Score'])
 print(df1)
 #------------------Replacing Missing Values with Zero--------------------------
